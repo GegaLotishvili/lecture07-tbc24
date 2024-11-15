@@ -1,3 +1,21 @@
-h2 {
-	color: red;
+.s1 {
+	margin-top: 100px;
+}
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+
+.mybox {
+	background-color: yellow;
+	width: 400px;
+	height: 400px;
+	transition: all 2s 1s;
+}
+
+.mybox:hover {
+	background-color: green;
+	transform: skew(80deg, 60deg);
 }
